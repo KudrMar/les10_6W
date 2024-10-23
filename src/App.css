@@ -1,0 +1,77 @@
+.container {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.clockList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clock {
+  display: block;
+  margin-right: 25px;
+  
+}
+
+.clockTop {
+  display: flex;
+  justify-content:space-between;
+}
+
+.dialFace {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 75px;
+  position: relative;  
+}
+
+.hand {
+  position: absolute;
+  bottom: 75px;
+  left: 75px;
+  transform-origin: bottom;
+  background-color: black;
+}
+
+.hour {
+  width: 6px;
+  height: 45px;
+}
+
+.minute {
+  width: 4px;
+  height: 70px;
+}
+
+.second {
+  width: 2px;
+  height: 75px;
+}
+
+.close {
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
